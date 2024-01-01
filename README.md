@@ -22,3 +22,11 @@ The hardware connection for the swithces is defined in the boardsource3x4.overla
             , <&pro_micro 15 GPIO_ACTIVE_HIGH>
             ;
             
+
+Thus:
+BT_CLR is connected to row pin 10 & col pin 18 
+PAGE_UP is connected to row pin 16 & col pin 18 
+PAGE_DOWN is connected to row pin 14 & col pin 18 
+
+A diode is connected between the switch and the col line. pins 15, 19 & 20 are left unused.
+
